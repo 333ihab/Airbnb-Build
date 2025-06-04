@@ -1,5 +1,5 @@
-import ClientOnly from "@/components/ClientOnly";
-import EmptyState from "@/components/EmptyState";
+import ClientOnly from "@/components/shared/interactive/ClientOnly";
+import EmptyState from "@/components/shared/display/EmptyState";
 import React from "react";
 import getCurrentUser from "../actions/getCurrentUser";
 import getReservation from "../actions/getReservations";

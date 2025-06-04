@@ -8,13 +8,13 @@ import { useMemo, useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 
-import Heading from "../Heading";
-import CategoryInput from "../inputs/CategoryInput";
-import Counter from "../inputs/Counter";
-import CountrySelect from "../inputs/CountrySelect";
-import ImageUpload from "../inputs/ImageUpload";
-import Input from "../inputs/Input";
-import { categories } from "../navbar/Categories";
+import Heading from "@/components/shared/display/Heading";
+import CategoryInput from "@/components/shared/forms/inputs/CategoryInput";
+import Counter from "@/components/shared/forms/inputs/Counter";
+import CountrySelect from "@/components/shared/forms/inputs/CountrySelect";
+import ImageUpload from "@/components/shared/forms/inputs/ImageUpload";
+import Input from "@/components/shared/forms/inputs/Input";
+import { categories } from "@/components/shared/layout/navbar/Categories";
 import Modal from "./Modal";
 
 type Props = {};
@@ -64,7 +64,7 @@ function RentModal({}: Props) {
 
   const Map = useMemo(
     () =>
-      dynamic(() => import("../Map"), {
+      dynamic(() => import("@/components/shared/display/Map"), {
         ssr: false,
       }),
     [location]

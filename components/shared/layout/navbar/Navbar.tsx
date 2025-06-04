@@ -2,10 +2,10 @@
 
 import { SafeUser } from "@/types";
 import Container from "../Container";
-import Logo from "./Logo";
-import Search from "./Search";
-import UserMenu from "./UserMenu";
-import Categories from "./Categories";
+import Logo from "@/components/shared/layout/navbar/Logo";
+import Search from "@/components/shared/layout/navbar/Search";
+import UserMenu from "@/components/shared/layout/navbar/UserMenu";
+import Categories from "@/components/shared/layout/navbar/Categories";
 
 type Props = {
   currentUser?: SafeUser | null;

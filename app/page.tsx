@@ -1,6 +1,6 @@
-import ClientOnly from "@/components/ClientOnly";
-import Container from "@/components/Container";
-import EmptyState from "@/components/EmptyState";
+import ClientOnly from "@/components/shared/interactive/ClientOnly";
+import Container from "@/components/shared/layout/Container";
+import EmptyState from "@/components/shared/display/EmptyState";
 import ListingCard from "@/components/listing/ListingCard";
 import getCurrentUser from "./actions/getCurrentUser";
 import getListings, { IListingsParams } from "./actions/getListings";

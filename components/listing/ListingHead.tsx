@@ -4,8 +4,8 @@ import useCountries from "@/hook/useCountries";
 import { SafeUser } from "@/types";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Heading from "../Heading";
-import HeartButton from "../HeartButton";
+import Heading from "@/components/shared/display/Heading";
+import HeartButton from "@/components/shared/interactive/HeartButton";
 
 type Props = {
   title: string;

@@ -1,6 +1,6 @@
 "use client";
 
-import EmptyState from "@/components/EmptyState";
+import EmptyState from "@/components/shared/display/EmptyState";
 import { useEffect } from "react";
 
 type Props = {

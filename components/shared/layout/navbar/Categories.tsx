@@ -16,7 +16,7 @@ import {
 import { IoDiamond } from "react-icons/io5";
 import { MdOutlineVilla } from "react-icons/md";
 import { TbBeach, TbMountain, TbPool } from "react-icons/tb";
-import CategoryBox from "../CategoryBox";
+import CategoryBox from "@/components/shared/interactive/CategoryBox";
 import Container from "../Container";
 
 export const categories = [

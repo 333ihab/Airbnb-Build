@@ -9,11 +9,11 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { Range } from "react-date-range";
 import { toast } from "react-toastify";
 
-import Container from "./Container";
-import ListingHead from "./listing/ListingHead";
-import ListingInfo from "./listing/ListingInfo";
-import ListingReservation from "./listing/ListingReservation";
-import { categories } from "./navbar/Categories";
+import Container from "@/components/shared/layout/Container";
+import ListingHead from "@/components/listing/ListingHead";
+import ListingInfo from "@/components/listing/ListingInfo";
+import ListingReservation from "@/components/listing/ListingReservation";
+import { categories } from "@/components/shared/layout/navbar/Categories";
 
 const initialDateRange = {
   startDate: new Date(),

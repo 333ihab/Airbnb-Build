@@ -10,9 +10,9 @@ import { FcGoogle } from "react-icons/fc";
 import { toast } from "react-toastify";
 
 import { signIn } from "next-auth/react";
-import Button from "../Button";
-import Heading from "../Heading";
-import Input from "../inputs/Input";
+import Button from "@/components/shared/interactive/Button";
+import Heading from "@/components/shared/display/Heading";
+import Input from "@/components/shared/forms/inputs/Input";
 import Modal from "./Modal";
 
 type Props = {};

@@ -1,9 +1,9 @@
 import getCurrentUser from "@/app/actions/getCurrentUser";
 import getListingById from "@/app/actions/getListingById";
 import getReservation from "@/app/actions/getReservations";
-import ClientOnly from "@/components/ClientOnly";
-import EmptyState from "@/components/EmptyState";
-import ListingClient from "@/components/ListingClient";
+import ClientOnly from "@/components/shared/interactive/ClientOnly";
+import EmptyState from "@/components/shared/display/EmptyState";
+import ListingClient from "@/components/shared/display/ListingClient";
 
 interface IParams {
   listingId?: string;

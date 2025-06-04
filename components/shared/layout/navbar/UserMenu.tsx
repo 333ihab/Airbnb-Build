@@ -10,7 +10,7 @@ import { SafeUser } from "@/types";
 import { signOut } from "next-auth/react";
 import { useCallback, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import Avatar from "../Avatar";
+import Avatar from "@/components/shared/interactive/Avatar";
 import MenuItem from "./MenuItem";
 
 type Props = {

@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import ClientOnly from "./ClientOnly";
-import FooterColumn from "@/components/FooterColumn";
+import ClientOnly from "@/components/shared/interactive/ClientOnly";
+import FooterColumn from "@/components/shared/layout/FooterColumn";
 
 type Props = {};
 
@@ -19,7 +19,7 @@ function Footer({}: Props) {
 
   useEffect(() => {
     fetch(
-      `https://extreme-ip-lookup.com/json/?key=${process.env.NEXT_PUBLIC_LOOKUP_KEY}`
+      `https://app.ipgeolocation.io/json/?key=${process.env.NEXT_PUBLIC_LOOKUP_KEY}`
     )
       .then((res) => res.json())
       .then((data) => setCountry(data.country));

@@ -5,12 +5,12 @@ import { SafeUser } from "@/types";
 import dynamic from "next/dynamic";
 import React from "react";
 import { IconType } from "react-icons";
-import Avatar from "../Avatar";
+import Avatar from "@/components/shared/interactive/Avatar";
 import ListingCategory from "./ListingCategory";
-import Sleep from "../Sleep";
-import Offers from "../Offers";
+import Sleep from "@/components/shared/interactive/Sleep";
+import Offers from "@/components/shared/display/Offers";
 
-const Map = dynamic(() => import("../Map"), {
+const Map = dynamic(() => import("@/components/shared/display/Map"), {
   ssr: false,
 });
 

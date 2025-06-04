@@ -2,8 +2,8 @@
 
 import React from "react";
 import { Range } from "react-date-range";
-import Calendar from "../inputs/Calendar";
-import Button from "../Button";
+import Calendar from "@/components/shared/forms/inputs/Calendar";
+import Button from "@/components/shared/interactive/Button";
 
 type Props = {
   price: number;

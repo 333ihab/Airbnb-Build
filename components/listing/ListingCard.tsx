@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useCallback, useMemo } from "react";
-import Button from "../Button";
-import HeartButton from "../HeartButton";
+import Button from "@/components/shared/interactive/Button";
+import HeartButton from "@/components/shared/interactive/HeartButton";
 
 type Props = {
   data: safeListing;

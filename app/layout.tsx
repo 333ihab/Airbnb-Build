@@ -1,11 +1,11 @@
-import ClientOnly from "@/components/ClientOnly";
-import Footer from "@/components/Footer";
-import ToastContainerBar from "@/components/ToastContainerBar";
+import ClientOnly from "@/components/shared/interactive/ClientOnly";
+import Footer from "@/components/shared/layout/Footer";
+import ToastContainerBar from "@/components/shared/forms/ToastContainerBar";
 import LoginModal from "@/components/models/LoginModal";
 import RegisterModal from "@/components/models/RegisterModal";
 import RentModal from "@/components/models/RentModal";
 import SearchModal from "@/components/models/SearchModal";
-import Navbar from "@/components/navbar/Navbar";
+import Navbar from "@/components/shared/layout/navbar/Navbar";
 import { Nunito } from "next/font/google";
 import "../styles/globals.css";
 import getCurrentUser from "./actions/getCurrentUser";

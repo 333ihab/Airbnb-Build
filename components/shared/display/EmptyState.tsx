@@ -3,8 +3,8 @@
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import React from "react";
-import Button from "./Button";
-import Heading from "./Heading";
+import Button from "@/components/shared/interactive/Button";
+import Heading from "@/components/shared/display/Heading";
 
 type Props = {
   title?: string;

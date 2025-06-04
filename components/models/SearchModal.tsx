@@ -8,10 +8,10 @@ import qs from "query-string";
 import { useCallback, useMemo, useState } from "react";
 import { Range } from "react-date-range";
 
-import Heading from "../Heading";
-import Calendar from "../inputs/Calendar";
-import Counter from "../inputs/Counter";
-import CountrySelect, { CountrySelectValue } from "../inputs/CountrySelect";
+import Heading from "@/components/shared/display/Heading";
+import Calendar from "@/components/shared/forms/inputs/Calendar";
+import Counter from "@/components/shared/forms/inputs/Counter";
+import CountrySelect, { CountrySelectValue } from "@/components/shared/forms/inputs/CountrySelect";
 import Modal from "./Modal";
 
 enum STEPS {
@@ -40,7 +40,7 @@ function SearchModal({}: Props) {
 
   const Map = useMemo(
     () =>
-      dynamic(() => import("../Map"), {
+      dynamic(() => import("@/components/shared/display/Map"), {
         ssr: false,
       }),
     [location]

@@ -1,5 +1,4 @@
-import Loader from "@/components/Loader";
-
+import Loader from "@/components/shared/interactive/Loader";
 type Props = {};
 
 function Loading({}: Props) {
